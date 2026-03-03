@@ -48,6 +48,8 @@ php artisan serve
 Open in browser:
 
 http://127.0.0.1:8000
+```
+
 📁 Project Structure
 
 app/Models → Model definitions
@@ -94,5 +96,4 @@ Tegar Noviyanto
 GitHub: https://github.com/tegarnoviyanto
 
 
----
-edit semua, ingat jangan sampai overclaim
+
