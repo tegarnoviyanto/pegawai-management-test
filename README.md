@@ -1,41 +1,38 @@
-Pegawai Management System
+# Pegawai Management System
 
 A simple Employee Management System built with Laravel.
 
-This project allows users to add and view employee data, including position, office, and CV upload with asynchronous file handling.
+This project allows users to manage employee data including position, office, and CV upload with asynchronous file handling.
 
-🚀 Features
+---
 
-Create new employee data
+## 🚀 Features
 
-Display employee list
+- CRUD Pegawai (Create, Read, Update, Delete)
+- Relationship between Pegawai, Position, and Office
+- Asynchronous CV Upload (Drag & Drop)
+- Server-side validation
+- Clean MVC structure
+- Seeder for dummy data
 
-Relationship between Pegawai, Position, and Office
+---
 
-Asynchronous CV Upload (Drag & Drop)
+## 🛠 Tech Stack
 
-Server-side validation
+- PHP 8+
+- Laravel
+- MySQL
+- Bootstrap 5
+- jQuery
+- Dropzone.js
 
-Seeder for dummy data
+---
 
-🛠 Tech Stack
-
-PHP 8+
-
-Laravel
-
-MySQL
-
-Bootstrap 5
-
-jQuery
-
-Dropzone.js
-
-📦 Installation
+## 📦 Installation
 
 Follow these steps to run the project locally:
 
+```bash
 git clone https://github.com/tegarnoviyanto/pegawai-management-test.git
 cd pegawai-management-test
 composer install
@@ -55,17 +52,15 @@ http://127.0.0.1:8000
 
 app/Models → Model definitions
 
-app/Http/Controllers → Application logic
+app/Http/Controllers → Business logic
 
 resources/views → Blade templates
 
-database/migrations → Database schema
+database/migrations → Database structure
 
 database/seeders → Dummy data
 
 📌 Main Functionalities
-Employee Management
-
 Add new employee
 
 View employee list
@@ -78,6 +73,7 @@ Accept PDF, DOC, DOCX
 
 Max file size: 2MB
 
+
 🔒 Validation & Security
 
 Server-side validation
@@ -86,7 +82,7 @@ File type restriction
 
 File size limit
 
-File storage handled using Laravel filesystem
+Storage handling via Laravel filesystem
 
 📄 License
 
@@ -96,3 +92,7 @@ This project is open-sourced under the MIT License.
 
 Tegar Noviyanto
 GitHub: https://github.com/tegarnoviyanto
+
+
+---
+edit semua, ingat jangan sampai overclaim
