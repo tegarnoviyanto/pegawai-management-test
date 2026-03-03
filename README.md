@@ -1,39 +1,41 @@
-# Pegawai Management System
+Pegawai Management System
 
 A simple Employee Management System built with Laravel.
 
-This project allows users to manage employee data including position, office, and CV upload with asynchronous file handling.
+This project allows users to add and view employee data, including position, office, and CV upload with asynchronous file handling.
 
----
+🚀 Features
 
-## 🚀 Features
+Create new employee data
 
-- CRUD Pegawai (Create, Read, Update, Delete)
-- Relationship between Pegawai, Position, and Office
-- Asynchronous CV Upload (Drag & Drop)
-- Replace & Delete uploaded CV
-- Server-side validation
-- Clean MVC structure
-- Seeder for dummy data
+Display employee list
 
----
+Relationship between Pegawai, Position, and Office
 
-## 🛠 Tech Stack
+Asynchronous CV Upload (Drag & Drop)
 
-- PHP 8+
-- Laravel
-- MySQL
-- Bootstrap 5
-- jQuery
-- Dropzone.js
+Server-side validation
 
----
+Seeder for dummy data
 
-## 📦 Installation
+🛠 Tech Stack
+
+PHP 8+
+
+Laravel
+
+MySQL
+
+Bootstrap 5
+
+jQuery
+
+Dropzone.js
+
+📦 Installation
 
 Follow these steps to run the project locally:
 
-```bash
 git clone https://github.com/tegarnoviyanto/pegawai-management-test.git
 cd pegawai-management-test
 composer install
@@ -53,11 +55,11 @@ http://127.0.0.1:8000
 
 app/Models → Model definitions
 
-app/Http/Controllers → Business logic
+app/Http/Controllers → Application logic
 
 resources/views → Blade templates
 
-database/migrations → Database structure
+database/migrations → Database schema
 
 database/seeders → Dummy data
 
@@ -65,10 +67,6 @@ database/seeders → Dummy data
 Employee Management
 
 Add new employee
-
-Edit employee data
-
-Delete employee
 
 View employee list
 
@@ -80,10 +78,6 @@ Accept PDF, DOC, DOCX
 
 Max file size: 2MB
 
-Auto delete old file when replaced
-
-Prevent orphan files
-
 🔒 Validation & Security
 
 Server-side validation
@@ -92,7 +86,7 @@ File type restriction
 
 File size limit
 
-Storage handling via Laravel filesystem
+File storage handled using Laravel filesystem
 
 📄 License
 
@@ -102,6 +96,3 @@ This project is open-sourced under the MIT License.
 
 Tegar Noviyanto
 GitHub: https://github.com/tegarnoviyanto
-
-
----
